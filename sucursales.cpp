@@ -6,8 +6,8 @@ Sucursales::Sucursales(){
   sucursal = new sucursal[1];
   s = 1;
   sizeS = 1;
-  nombre1 = "Sucursal 1";
-  nombre2 = "Sucursal2";
+  nombresuc1 = "Sucursal 1";
+  nombresuc2 = "Sucursal 2";
 }
 
 
@@ -41,12 +41,14 @@ return Empleadoas;
 
 string Sucursales::getnombreSucursal(int n){
   if(int n = 1){
-    return nombre1;
+    return nombresuc1;
   }
   if(int n = 2){
-    return nombre2;
+    return nombresuc2;
   }
   else(){
     cout << "La sucursal no existe";
   }
 }
+
+

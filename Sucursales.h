@@ -14,6 +14,10 @@ class Sucursales{
     virtual void borrar();
     void asociaE();
     string getnombreSucursal();
+    string nombresuc1();
+    string nombresuc2();
+    int sizeS();
+    int s();
 
 
 

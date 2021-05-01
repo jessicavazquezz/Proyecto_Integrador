@@ -3,15 +3,13 @@
 #include "Sucursales.h"
 
 class Inventario{
-  private:
-    string nombreproducto1;
-    string nombreproducto1;
-    int codigoproducto1;
-    int codigoproducto2;
+  protected:
+    string nombreproducto;
+    int codigoproducto;
     double preciocompra;
     int cantidadproductos;
-    double peso;
-    double tamano;
+    double pesoproducto;
+    double tamanoempaque;
 
   public:
     Inventario();
