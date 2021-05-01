@@ -4,18 +4,24 @@
 
 class Personas{
   private:
-    string nombre;
+    string nombre1;
+    string nombre2;
+    string nombre3;
     string direccion;
     int telefono;
     string fecha_nacimiento;
     string sexo;
     string tipo;
-    string rfc;
-    string cargo;
+    string rfc1;
+    string rfc2;
+    string rfc3;
+    string cargo1;
+    string cargo2;
+    string cargo3;
 
   public:
     Personas();
-    Personas(string,string, int, string, string, string, string, string);
+    Personas(string,string, string, string, int, string, string, string, string, string, string, string, string, string);
     string getnombre();
     string getdireccion();
     int gettelefono();
