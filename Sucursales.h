@@ -9,9 +9,9 @@ class Sucursales{
   public:
     Sucursales();
     Sucursales(string);
-    void agregar();
-    void modificar();
-    void borrar();
+    virtual void agregar(int);
+    virtual void modificar();
+    virtual void borrar();
     void asociaE();
     string getnombreSucursal();
 
