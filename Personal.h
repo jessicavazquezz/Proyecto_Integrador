@@ -7,8 +7,9 @@ class Personal : public Cliente
 
 private:
     string cargo;
-public: 
+public:
     Personal();
     Personal(string, string, int, string, string, string, string,string);
+    string getcargo();
 
 };
