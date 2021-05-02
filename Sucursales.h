@@ -4,17 +4,32 @@ using namespace std;
 
 class Sucursales{
   private:
-    string nombreSucursal;
+    Sucursales *sucursal;
+    string nombresucursal;
+    string direccionsucursal;
+    int cantidadempleados;
+    int cantidadproductos;
+ 
+    
+    
 
   public:
     Sucursales();
-    Sucursales(string);
-    virtual void agregar(int);
+    Sucursales(string, string, int, int);
+    void setnombresucursal(string);
+    void setdireccionsucursal(string);
+    void setcantidadempleados(int);
+    void setcantidadproductos(int);
+    string getnombresucursal();
+    string getdireccionsucursal();
+    int getcantidadempleados();
+    int getcantidadproductos();
+    virtual void agregar();
     virtual void modificar();
     virtual void borrar();
     void asociaE();
-    string getnombreSucursal();
+    void transferir();
+    void editarproducto();
 
-
-
-}
+    
+};
