@@ -22,8 +22,6 @@ int main() {
     Cliente::agregar("Susanita", "Guerrero", "7723232378", "Junio 27 2001", "Mujer", "1787");
     Cliente::agregar("Pedro", "Guadalajara", "3232378090", "Junio 20 2003", "Hombre", "1787");
     Cliente::agregar("Susanita", "Guerrero", "7723232378", "Junio 27 2001", "Mujer", "1787");
-    
-    Personal persona1(cliente);
-    
+
     
 }
