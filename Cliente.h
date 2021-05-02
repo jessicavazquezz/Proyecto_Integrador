@@ -4,6 +4,7 @@
 //Tanto los empleadoscomo los clientes cuentan con información personalque está compuesta por: Nombre, Dirección, Teléfono, Fecha de nacimiento, Sexo.
 class Cliente{
   private:
+    Cliente *cliente;
     string nombre;
     string direccion;
     string telefono;
