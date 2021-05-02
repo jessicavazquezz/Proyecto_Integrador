@@ -6,15 +6,14 @@ class Cliente{
   private:
     string nombre;
     string direccion;
-    int telefono;
+    string telefono;
     string fecha_nacimiento;
     string sexo;
-    string tipo;
     string rfc;
 
   public:
     Cliente();
-    Cliente(string, string, int, string, string, string, string);
+    Cliente(string, string, stribg, string, string, string);
     void agregar();
     void modificar();
     void borrar();
