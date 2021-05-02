@@ -1,4 +1,4 @@
-#include "Personal.h"
+#include "Personal.hpp"
 #include <iostream>
 using namespace std;
 
@@ -6,12 +6,8 @@ Personal::Personal(){
     cargo= "";
 }
 
-Personal::Personal(string nombre, string telefono, string fecha_nacimiento, string sexo,  string rfc){
-    nombre = nombre;
-    telefono = telefono;
-    fecha_nacimiento = fecha_nacimiento;
-    sexo = sexo;
-    rfc = rfc;
+Personal::Personal(string nom, string dir, string tel, string fechan, string genero, string _rfc, string cargo ):Cliente(nom,dir,tel,fechan,genero,_rfc){
+    this->cargo = cargo;
 }
 
 
