@@ -1,4 +1,5 @@
-#include "Cliente.h"
+
+#include "Cliente.hpp"
 #include <string>
 using namespace std;
 
@@ -9,7 +10,6 @@ private:
     string cargo;
 public:
     Personal();
-    Personal(string, string, int, string, string, string, string,string);
-    string getcargo();
+    Personal(string, string, string, string, string,string,string);
 
 };
