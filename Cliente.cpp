@@ -17,6 +17,15 @@ Cliente::Cliente(){
   
 }
 
+Cliente::Cliente(string nom, string dir, string tel, string fechan, string genero, string _rfc){
+    nombre= nom ;
+    direccion= dir;
+    telefono= tel;
+    fecha_nacimiento= fechan;
+    sexo= genero;
+    rfc= _rfc;
+}
+
 void Cliente::agregar(string nombre, string telefono, string fecha_nacimiento, string sexo,  string rfc){
     int dato0= sizeof(cliente)+1;
     string dato1 = nombre;
